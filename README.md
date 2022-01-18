@@ -40,7 +40,7 @@ client.on('message', async message => {
   .setDescription(`Test Reply Message`)
 
 
-    message.reply(embed)//Mention Reply
+    message.replyMention(embed)//Mention Reply
 
     message.replyNoMention(embed)//No Mention Reply
   }
