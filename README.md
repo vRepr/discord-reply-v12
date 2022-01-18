@@ -1,7 +1,7 @@
 
-**Discord v12 Reply | vRepr**
+**Discord Reply v12 | vRepr**
 
-**NPM:** https://npmjs.com/package/discordv12-reply
+**NPM:** https://npmjs.com/package/discordv-reply-v12
 
 **Discord:** vRepr#0001
 
@@ -13,7 +13,7 @@
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discordv12-reply");
+require("discordv-reply-v12");
 
 client.on('message', async message => {
   if (message.content === "vRepr") {
@@ -30,7 +30,7 @@ client.on('message', async message => {
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discordv12-reply");
+require("discordv-reply-v12");
 
 client.on('message', async message => {
   if (message.content === "vrepr") {
@@ -51,5 +51,5 @@ client.on('message', async message => {
  ## Installation
 
 ```
-npm i discord-replys
+npm i discord-reply-v12
 ```
