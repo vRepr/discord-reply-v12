@@ -13,7 +13,7 @@
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discordv-reply-v12");
+require("discord-reply-v12");
 
 client.on('message', async message => {
   if (message.content === "vRepr") {
@@ -30,10 +30,10 @@ client.on('message', async message => {
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discordv-reply-v12");
+require("discord-reply-v12");
 
 client.on('message', async message => {
-  if (message.content === "vrepr") {
+  if (message.content === "vRepr") {
 
   let embed = new discord.MessageEmbed()
   .setTitle("vRepr | İnline Reply Message")
