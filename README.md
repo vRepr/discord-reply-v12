@@ -33,10 +33,10 @@ const client = new Discord.Client();
 require("discordv12-reply");
 
 client.on('message', async message => {
-  if (message.content === "sykocoder") {
+  if (message.content === "vrepr") {
 
   let embed = new discord.MessageEmbed()
-  .setTitle("SykoCoder | İnline Reply Message")
+  .setTitle("vRepr | İnline Reply Message")
   .setDescription(`Test Reply Message`)
 
 
