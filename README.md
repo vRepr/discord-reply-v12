@@ -8,12 +8,12 @@
 **Please Note:** This code was taken from (https://github.com/SykoCoder1/discord-replys) and was tweaked to work with the package *discord-buttons*.
                  Furthermore, I take no credit for this code and only did this with the sole intention to fix an issue I had.
 
-# Example
+## Example
 
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discord-reply-v12");
+require("discord-replys-v12");
 
 client.on('message', async message => {
   if (message.content === "vRepr") {
@@ -30,7 +30,7 @@ client.on('message', async message => {
 ```
 const Discord = require("discord.js");
 const client = new Discord.Client();
-require("discord-reply-v12");
+require("discord-replys-v12");
 
 client.on('message', async message => {
   if (message.content === "vRepr") {
@@ -51,5 +51,5 @@ client.on('message', async message => {
  ## Installation
 
 ```
-npm i discord-reply-v12
+npm i discord-replys-v12
 ```
