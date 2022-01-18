@@ -1,0 +1,22 @@
+{
+  "name": "discordv12-reply",
+  "version": "1.0.0",
+  "description": "Use to have inline replies (works with discord-buttons)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vRepr/discordv12-reply.git"
+  },
+  "keywords": [
+    "discord-reply"
+  ],
+  "author": "vRepr#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vRepr/discordv12-reply/issues"
+  },
+  "homepage": "https://github.com/vRepr/discordv12-reply#readme"
+}
